@@ -2,16 +2,15 @@ div.bio-box {
     border: 1px solid green;
 }
 
-
-.bio-box {
-    border: 1px solid black
-}
-
-.bio-box a {
+a {
+    color: red;
+  }
+  .bio-box {
+    border: 1px solid black;
+  }
+  .bio-copy a {
     color: green;
-}
-
-
-.bio-box .social-link {
+  }
+  .social-link {
     color: blue;
-}
+  }

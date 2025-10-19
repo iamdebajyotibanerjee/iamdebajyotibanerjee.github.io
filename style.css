@@ -1,16 +1,18 @@
-div.bio-box {
-    border: 1px solid green;
+a {
+    color: rgba(212,152,227,0.2);
+  }
+
+.bio-box {
+  border: 10px solid black;
+  margin: 10%;
+  font-size: 150%;
 }
 
-a {
-    color: red;
-  }
-  .bio-box {
-    border: 1px solid black;
-  }
-  .bio-copy a {
-    color: green;
-  }
-  .social-link {
-    color: blue;
-  }
+.bio-copy a {
+  color: green;
+  font-size: 150%;
+}
+
+.social-link {
+  color: blue;
+}

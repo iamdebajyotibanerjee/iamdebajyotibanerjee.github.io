@@ -1,3 +1,9 @@
+.full-hero {
+    background: #c7dbfc;
+    height: 50vw;
+    width: 50vw;
+}
+
 a {
     color: rgba(212,152,227,0.2);
   }

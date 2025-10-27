@@ -99,7 +99,7 @@ body {
   }
 
   .card {
-    width: 70%;
+    width: 90%;
     background-color: hsl(0, 0%, 100%);
     padding: 16px 24px;
     display: flex;

@@ -4,6 +4,10 @@
     width: 50vw;
 }
 
+.full-hero li {
+  display: inline;
+}
+
 a {
     color: rgba(212,152,227,0.2);
   }
@@ -20,5 +24,10 @@ a {
 }
 
 .social-link {
+  display: inline-block;
   color: blue;
+}
+
+.show {
+  display: block;
 }

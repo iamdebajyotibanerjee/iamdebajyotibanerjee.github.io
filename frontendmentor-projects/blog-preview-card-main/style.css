@@ -1,0 +1,46 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base Styles */
+
+:root {
+    --primary-color: hsl(0, 0%, 100%);
+    --secondary-color: hsl(0, 0%, 7%);
+    --primary-contrast-color: hsl(47, 88%, 63%);
+    --secondary-contrast--color: hsl(0, 0%, 42%);
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}
+
+.container {
+    background-color: var(--primary-contrast-color);
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--primary-color);
+    width: 375px;
+    ;
+}
+
+.attribution {
+    height: 2vh;
+    background-color: var(--primary-contrast-color);;
+    font-size: 11px;
+    text-align: center;
+}
+

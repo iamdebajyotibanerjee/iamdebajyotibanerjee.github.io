@@ -72,14 +72,15 @@ body {
 
 /* Style for Tablet and Mobile screens */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 440px) {
   body {
-    background-color: black;
+    background-color: hsl(212, 45%, 89%);
     padding: 8px 12px;
   }
 
   footer {
-    color: hsl(0, 0%, 100%);
+    color: hsl(218, 44%, 22%);
+    text-align: center;
   }
 
   footer a {
@@ -87,7 +88,7 @@ body {
   }
 
   .container {
-    width: 360px;
+    width: 100%;
     background-color: hsl(212, 45%, 89%);
     border-radius: 4px;
     display: flex;
@@ -97,7 +98,7 @@ body {
   }
 
   .card {
-    width: 96%;
+    width: 375px;
     background-color: hsl(0, 0%, 100%);
     padding: 8px 12px;
     display: flex;

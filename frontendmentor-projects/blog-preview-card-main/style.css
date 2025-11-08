@@ -34,12 +34,56 @@ body {
 .card {
     background-color: var(--primary-color);
     width: 375px;
-    ;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0.5rem;
 }
 
+.featured-image,
+.post,
+.author-meta {
+    width: 20rem;
+    margin-bottom: 1.25rem;
+
+}
+
+.featured-image img {
+    border-radius: 0.5rem;
+}
+
+.post .category {
+    padding: 2px 4px;
+    max-width: fit-content;
+    background-color: var(--primary-contrast-color);
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.post .post-meta {
+    font-size: 0.75rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.5rem;
+}
+
+.post .post-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.post .post-exerpt {
+    color: var(--secondary-contrast--color);
+    margin-bottom: 1.5rem;
+}
+
+
+/* Attribution */
 .attribution {
     height: 2vh;
-    background-color: var(--primary-contrast-color);;
+    background-color: var(--primary-contrast-color);
     font-size: 11px;
     text-align: center;
 }

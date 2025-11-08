@@ -82,6 +82,8 @@ body {
 
 .post .post-exerpt {
     color: var(--secondary-contrast--color);
+    line-height: 1.25;
+    letter-spacing: 0.5px;
 }
 
 .author-meta {

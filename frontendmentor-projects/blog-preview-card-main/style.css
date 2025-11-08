@@ -74,6 +74,12 @@ body {
     margin-bottom: 1rem;
 }
 
+.post .post-title:focus,
+.post .post-title:active {
+    color: var(--primary-contrast-color);
+    cursor: pointer;
+}
+
 .post .post-exerpt {
     color: var(--secondary-contrast--color);
 }

@@ -1,0 +1,54 @@
+/* Imports */
+
+
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+
+:root {
+    --secondary-color: hsl(75, 94%, 57%);
+    --primary-color: hsl(0, 0%, 100%);
+    --dark-background-color: hsl(0, 0%, 20%);
+    --dark-background-color: hsl(0, 0%, 12%);
+    --darkest-background-color: hsl(0, 0%, 8%);
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--darkest-background-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* Element Styles */
+
+.container {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--dark-background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

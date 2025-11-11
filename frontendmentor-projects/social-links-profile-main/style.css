@@ -16,7 +16,7 @@
     --secondary-color: hsl(75, 94%, 57%);
     --primary-color: hsl(0, 0%, 100%);
     --dark-background-color: hsl(0, 0%, 20%);
-    --dark-background-color: hsl(0, 0%, 12%);
+    --darker-background-color: hsl(0, 0%, 12%);
     --darkest-background-color: hsl(0, 0%, 8%);
 }
 
@@ -25,7 +25,7 @@ body {
     font-family: 'Inter', sans-serif;
     color: var(--primary-color);
     background-color: var(--darkest-background-color);
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -61,6 +61,41 @@ body {
 
 .card .card-header {
     text-align: center;
+}
+
+.profile-avatar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 12px solid var(--darker-background-color);
+    margin-bottom: 12px;
+}
+
+
+.card-header .profile-name,
+.card-header .profile-location,
+.card-header .profile-description {
+   display: inline-block;
+}
+
+.profile-name {
+    margin-bottom: 8px;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.profile-location {
+    margin-bottom: 16px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.profile-description {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 12px;
 }
 
 

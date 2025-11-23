@@ -1,0 +1,99 @@
+/* CSS Reset -Learn Enough version */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+strong, b {
+  font-weight: bold;
+}
+em, i {
+  font-style: italic;
+}
+a img {
+  border: none;
+}
+/* END RESET*/
+
+/* GLOBAL STYLES */
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.full-hero {
+    background: #c7dbfc;
+    height: 50vw;
+    width: 50vw;
+}
+
+.full-hero li {
+  display: inline;
+}
+
+a {
+    color: rgba(212,152,227,0.2);
+  }
+
+.bio-box {
+  border: 10px solid black;
+  margin: 10%;
+  font-size: 150%;
+}
+
+.bio-copy a {
+  color: green;
+  font-size: 150%;
+}
+
+.social-link {
+  display: inline-block;
+  color: blue;
+}
+
+.show {
+  display: block;
+}

@@ -1,5 +1,57 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
 /* Global Styles */
 
+:root {
+    --background-color: hsl(30, 54%, 90%);
+    --background-color-deep: hsl(30, 18%, 87%);
+    --background-color-light: hsl(0, 0%, 100%);
+    --font-color: hsl(30, 10%, 34%);
+    --font-color-deep: hsl(24, 5%, 18%);
+    --font-color-highlight-brown: hsl(14, 45%, 36%);
+    --font-color-highlight-rose: hsl(332, 51%, 32%);
+    --font-color-highlight-rose-light: hsl(330, 100%, 98%);
+}
+
 body {
-    
+    width: 375px;
+    background-color: var(--background-color);
+    font-family: 'Young-serif', serif;
+    font-size: 16px;
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 100%;
+    /* padding: 0 0.25vh 0.5vh;     */
+}
+
+.main {
+    width: 90%;
+}
+
+.header img {
+    width: 375px;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width: 769px) {
+
+    body {
+        width: 100vw;
+    }
+
+    .wrapper {
+        width: 50%;
+        background-color: var(--background-color-light);
+        margin: 10vh 20vh;
+    }
 }

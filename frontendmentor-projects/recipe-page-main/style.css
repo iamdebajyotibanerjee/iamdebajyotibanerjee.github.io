@@ -16,7 +16,6 @@
 }
 
 body {
-    width: 375px;
     background-color: var(--background-color);
     font-family: 'Young-serif', serif;
     font-size: 16px;
@@ -28,16 +27,13 @@ body {
 }
 
 .wrapper {
-    width: 100%;
-    /* padding: 0 0.25vh 0.5vh;     */
-}
-
-.main {
-    width: 90%;
+    background-color: var(--background-color-light);
+    overflow: hidden;
+    
 }
 
 .header img {
-    width: 375px;
+    max-width: 375px;
 }
 
 
@@ -45,13 +41,17 @@ body {
 
 @media screen and (min-width: 769px) {
 
-    body {
-        width: 100vw;
+    .wrapper {
+        width: 40%;
+        margin: 10vh 20vh;
     }
 
-    .wrapper {
-        width: 50%;
-        background-color: var(--background-color-light);
-        margin: 10vh 20vh;
+    .main,
+    .header {
+        width: 100%;
+    }
+
+    .header img {
+        max-width: 100%;
     }
 }

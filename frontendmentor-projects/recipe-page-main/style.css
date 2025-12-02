@@ -15,6 +15,12 @@
     --font-color-highlight-rose-light: hsl(330, 100%, 98%);
 }
 
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+    color: var(--font-color-highlight-brown);
+    font-weight: 400;
+}
+
 .wrapper {
     background-color: var(--background-color);
     font-family: 'Outfif', sans-serif;
@@ -51,6 +57,13 @@
     font-weight: 400;
 }
 
+.prep-time,
+.ingradients,
+.instructions,
+.nutrition {
+    padding: 1.5rem 0;
+}
+
 .prep-time {
     background-color: var(--font-color-highlight-rose-light);
     border-radius: 12px;
@@ -63,12 +76,32 @@
     font-family: 'Young Serif', serif;
 }
 
-.prep-time .list-heading {
+.prep-time .list-heading,
+.instructions .list-heading {
     font-weight: 600;
 }
 
 .prep-time li::marker {
     color: var(--font-color-highlight-rose);
+}
+
+.ingradients,
+.instructions {
+    border-bottom: 1px solid hsla(30, 10%, 34%, 0.4);
+}
+
+.nutrition table {
+    width: 100%;
+}
+
+.nutrition table td {
+    border-bottom: 1px solid hsla(30, 10%, 34%, 0.4);
+    padding: 0.5rem 0;
+}
+
+.nutrition table .macro-figures {
+    color: var(--font-color-highlight-rose);
+    font-weight: 600;
 }
 
 /* Credits section */

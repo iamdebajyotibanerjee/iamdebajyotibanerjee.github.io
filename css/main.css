@@ -55,6 +55,26 @@ a {
   color: #f00;
 }
 
+/* HEADER STYLES */
+
+.header-nav {
+  float: right;
+}
+
+.header-nav > li {
+  padding: 2rem;
+  display: inline-block;
+  list-style: none;
+}
+
+.header-nav li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #333;
+}
+
+
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;

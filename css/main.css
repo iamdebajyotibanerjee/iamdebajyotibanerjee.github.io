@@ -267,6 +267,27 @@ h2~p {
 .full-hero {
   background-color: #c7dbfc;
   height: 100vh;
+  padding-top: 10vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-home {
+  background-image: url("/images/shark.jpg");
+  background-position: center top;
+}
+
+.hero-content {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.hero-content .home-hero {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 2vh;
 }
 
 /* SOCIAL STYLES */
@@ -277,20 +298,17 @@ h2~p {
 }
 
 .social-link {
-  background: rgba(150, 150, 150, 0.5);
-  border-radius: 99px;
+  background: rgba(0, 24, 75, 0.8);
+  border-radius: 50%;
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
   font-size: 1rem;
   font-weight: bold;
-  height: 2.5em;
   line-height: 1;
-  padding-top: 0.85em;
+  padding: 1vw;
   text-align: center;
   text-decoration: none;
-  vertical-align: middle;
-  width: 2.5em;
 }
 
 .social-list>li {
